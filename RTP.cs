@@ -40,13 +40,14 @@ namespace ProPax
 
         public void AddClassIndex(string ClassAbbreviation, decimal Index, string ClassName)
         {
+            string sAcceptableIndexedClassPrefixes = System.Configuration.ConfigurationManager.AppSettings["indexedClassPrefixes"];
+            if (string.IsNullOrEmpty(sAcceptableIndexedClassPrefixes))
+            {
+                sAcceptableIndexedClassPrefixes = "";
+            }
+            List<string> lstAcceptableIndexedClassPrefixes = sAcceptableIndexedClassPrefixes.Split(',').ToList();
             //check if the index is zero (in that case count it as an indexed class prefix)
-            //if (Index == 0)
-            if (Index == 0 
-                || ClassAbbreviation == "P"
-                || ClassAbbreviation == "T"
-                || ClassAbbreviation == "R"
-            )
+            if (Index == 0 || lstAcceptableIndexedClassPrefixes.Contains(ClassAbbreviation))
             {
                 AddIndexedClassPrefix(ClassAbbreviation);
             }
