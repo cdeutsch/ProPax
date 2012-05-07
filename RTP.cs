@@ -45,6 +45,7 @@ namespace ProPax
             if (Index == 0 
                 || ClassAbbreviation == "P"
                 || ClassAbbreviation == "T"
+                || ClassAbbreviation == "R"
             )
             {
                 AddIndexedClassPrefix(ClassAbbreviation);
