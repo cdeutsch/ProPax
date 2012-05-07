@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ProPax.Driver">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAQAEAAAAEIAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Driver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProPax.Run">
+    <Position X="2" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAAAAAAAAAAAAACAAAAAAAAAACAAAAAAAAAQA=</HashCode>
+      <FileName>Run.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProPax.ClassIndex">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAQAACAAAQAAAAAAAAAAAABAAAAAAEAAAAQAAA=</HashCode>
+      <FileName>ClassIndex.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ProPax.RTP">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAABAAAEAAAAAIAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>RTP.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ProPax.Competition">
+    <Position X="8.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMAAAAAAAA=</HashCode>
+      <FileName>Competition.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
